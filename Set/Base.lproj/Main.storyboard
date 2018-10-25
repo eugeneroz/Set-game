@@ -367,14 +367,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gLd-az-tPn">
                                 <rect key="frame" x="16" y="617" width="216" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OR-QJ-ctx">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OR-QJ-ctx">
                                         <rect key="frame" x="0.0" y="0.0" width="88" height="30"/>
                                         <state key="normal" title="New Game"/>
                                         <connections>
                                             <action selector="touchNewGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LWe-cZ-oAz"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJj-6L-rFd">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJj-6L-rFd">
                                         <rect key="frame" x="104" y="0.0" width="112" height="30"/>
                                         <state key="normal" title="Deal more cards"/>
                                         <connections>
